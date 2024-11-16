@@ -1,6 +1,8 @@
 Voice-Controlled ESP32 Robot
 This project features a voice-controlled robot powered by an ESP32 microcontroller. The robot is equipped with two motors, allowing it to move forward, backward, turn left, and turn right. Additionally, the robot can be stopped using voice commands.
 
+[video link](https://www.linkedin.com/posts/kunal-chavan-303659280_robotics-ai-esp32-activity-7180258064434905088-0-sB?utm_source=share&utm_medium=member_desktop)
+
 Requirements
 Arduino IDE
 ESP32 board
