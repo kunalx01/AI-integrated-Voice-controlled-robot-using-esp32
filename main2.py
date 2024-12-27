@@ -26,9 +26,9 @@ cap = cv2.VideoCapture(0)
 def send_command(command):
     esp32_socket.sendall((command + "\n").encode())
 
-
+api_key=" "
 # Set up Google GenerativeAI
-genai.configure(api_key="AIzaSyCc2CdfNLqxXOPl2Y_2imi09TBOaPnavpc")
+genai.configure(api_key)
 
 generation_config = {
     "temperature": 0.9,
